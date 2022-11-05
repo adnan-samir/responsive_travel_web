@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tour And Travel Agency Website | Meghalaya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="arrow">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="menu-bar">
+                <div class="logo-bar">
+                    <a href="index.html">
+                        <h2>Tevilly</h2>
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a class="menu-hover" href="#">Home</a></li>
+                        <li><a class="menu-hover" href="#welcome-text">Travel</a></li>
+                        <li><a class="menu-hover" href="#book">Book Now</a></li>
+                        <li><a class="menu-hover" href="#gallery">Gallery</a></li>
+                        <li><a class="menu-hover" href="#services">Services</a></li>
+                        <li><a class="menu-hover" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="toggle-btn">
+                <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="header-info-bar">
+                <h1 class="typewrite" data-period="2000"
+                data-type='["Happiness is closer than you think","Adventure Awaits, go find it.","Dont be a tourist, be a traveler."]'>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, ea. Mollitia maiores voluptatum
+                    vitae suscipit tenetur ut officiis assumenda ipsam.</p>
+                <a href="#" class="a">Read More</a>
+            </div>
+            <div class="video">
+                <video id="video" autoplay loop muted>
+                    <source src="/images/meg_tourism-video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+    <!-- Second Slides Section -->
+    <section id="welcome-text">
+        <div class="container">
+            <h2>The Official Travel Site of the Beautiful Meghalaya</h2>
+            <p>when an unknown printer took a gallery of type and scrambled it to make a type speicmen</p>
+        </div>
+    </section>
+     <!-- Slides Section Start-->
+     <section id="slides-par">
+        <div class="container">
+            <div class="slides">
+                <div class="slide_1 slide_2">
+                    <div class="slide-info">
+                        <p>Shillong City</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_3">
+                    <div class="slide-info">
+                        <p>Jowai</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_4">
+                    <div class="slide-info">
+                        <p>Sohra(Cherrapunji)</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_5">
+                    <div class="slide-info">
+                        <p>Mawsynram</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_6">
+                    <div class="slide-info">
+                        <p>Mawphlang Sacred Groves</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_7">
+                    <div class="slide-info">
+                        <p>Dawki</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_8">
+                    <div class="slide-info">
+                        <p>Tura</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Now Section Start -->
+    <section id="book">
+        <div class="container">
+            <div class="book-content-bar">
+                <div class="book-counter">
+                    <h3>Book Now</h3>
+                    <div id="clock-div">
+                        <div>
+                            <span class="days"></span>
+                            <div class="smalltext">Days</div>
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                            <div class="smalltext">Hours</div>
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                            <div class="smalltext">Minutes</div> 
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                            <div class="smalltext">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-form">
+                    <form action="">
+                        <div class="inputBox">
+                            <h3>where to</h3>
+                            <input type="text" placeholder="place name">
+                        </div>
+                        <div class="inputBox">
+                            <h3>how many</h3>
+                            <input type="number" placeholder="number of guests">
+                        </div>
+                        <div class="inputBox">
+                            <h3>arrivals</h3>
+                            <input type="date">
+                        </div>
+                        <div class="inputBox">
+                            <h3>leaving</h3>
+                            <input type="date">
+                        </div>
+                        <input type="submit" class="btn" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Starts -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div align="center" class="filter-btn-bar">
+                    <button class="filter-button" data-filter="all">ALL</button>
+                    <button class="filter-button" data-filter="caves">CAVES</button>
+                    <button class="filter-button" data-filter="falls">FALLS</button>
+                    <button class="filter-button" data-filter="nature">NATURE</button>
+                </div>
+                <div class="filter-gal-bar">
+                    <div class="gallery-item filter caves">
+                        <img src="../images/Mawsmai caves.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter caves">
+                        <img src="../images/Arwah cave.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter caves">
+                        <img src="../images/Garden of Caves.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter falls">
+                        <img src="../images/seven-sisters-falls.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter falls">
+                        <img src="../images/Nohkalikai falls.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter falls">
+                        <img src="../images/KrangSuri-Falls.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter falls">
+                        <img src="../images/wei sawdong.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter falls">
+                        <img src="../images/Elephant FallS.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/double-decker-root-bridge.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/Umiam-Lake-Meghalaya.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/Mawlynong-Village.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/Laitlum-Canyons-Scenic-View.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/Wards-lake.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/Lady Hydari-park.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="../images/balpakram-forest.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section Starts -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h1>Services</h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fas-hotel"></i>
+                    <img src="../images/hotels logo.jpg" alt="">
+                    <h3>Affordable Hotels</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <img src="../images/food-and-drink logo.jpg" alt="">
+                    <h3>Food and Drinks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fas-bullhorn"></i>
+                    <img src="../images/guide logo.jpg" alt="">
+                    <h3>Safty Guide</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <img src="../images/adventure.webp" alt="">
+                    <h3>Adventures</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+                </div>
+            </div>
+        
+        </div>
+        
+    </section>
+    <!-- Contact Section Starts -->
+    <section class="contact" id="contact">
+    
+       <div class="heading">
+        <h1>contact</h1>
+       </div>
+    
+        <div class="row">
+    
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="NAME">
+                    <input type="email" placeholder="EMAIL">
+                    <input type="number" placeholder="NUMBER">
+                    <input type="text" placeholder="SUBJECT">
+                <textarea placeholder="MESSAGE" name="" id="" cols="20" rows="6"></textarea>
+                <input type="submit" class="btn" value="SEND MESSAGE">
+            </form>
+    
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-par">
+                <div class="footer-1">
+                    <h3 class="fotter-logo-h">Tevilly</h3>
+                </div>
+                <div class="footer-1 footer-info">
+                    <h3>Tourism Meghalaya</h3>
+                    <ul>
+                        <li><a href="#">Find Your Happiness</a></li>
+                    </ul>
+                </div>
+                <div class="footer-1 footer-info">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#welcome-text">Travel</a></li>
+                        <li><a href="#book">Book</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="thank-you">Thank You</p>
+    </footer>
+
+
+<script src="/js/jquery-3.1.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="/js/externaljq.js"></script>
+</body>
+</html>
